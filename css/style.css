@@ -1,0 +1,69 @@
+/*
+
+	Copyright (C) 2015  Cody Foss
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+	-----
+
+	All images and logos related to the Alberta Emergency Alert program are
+	not subject to this license and remain property of their respective owners.
+
+*/
+
+.widget_aeaw {
+	border-radius: 5px;
+	background-color: #eee;
+	padding-top: 10px;
+	font-size: 12px;
+}
+.aeaw-widget-aeaw-logo {
+	padding: 5px 10px;
+}
+.widget_aeaw h3 {
+	font-size: 16px;
+	margin: 10px 10px 0 10px;
+}
+.widget_aeaw ul {
+	margin: 5px 0 0 0 !important;
+	padding: 0;
+}
+.widget_aeaw ul li {
+	margin: 0 0 1px 0;
+	padding: 10px;
+	list-style: none;
+}
+.critical_alert {
+	background-color: #b5111a;
+	color: #fff;
+}
+.critical_alert a {
+	color: #fff;
+	text-decoration: underline !important;
+}
+.critical_alert a.aeaw-widget-link {
+	display: block;
+/*	border-bottom: 1px dotted #006600;*/
+	font-weight: bold;
+/*	padding-bottom: 5px;
+	margin-bottom: 5px;
+*/	text-decoration: none !important;
+}
+.information_alert {
+	background-color: yellow;
+	color: #333;
+}
+.no_alert {
+	background-color: #ddd;
+	color: #333;
+}
